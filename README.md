@@ -1,6 +1,6 @@
-# SystemScript Compiler (ssc)
+# SystemScript Compiler (ssc) -Beta
 
-SystemScript is a statically-typed systems programming language. The compiler performs lexical analysis, parsing, semantic analysis, and code generation to produce native executables. You can find the [documentation here]()
+SystemScript is a statically-typed systems programming language. The compiler performs lexical analysis, parsing, semantic analysis, and code generation to produce native executables. You can find the [documentation here](https://github.com/sysScript/System-Script)
 
 # Installation (with images)
 
@@ -159,3 +159,7 @@ The compiler reports errors with context:
 ```
 Compilation failed: Semantic error: Cannot assign to immutable variable 'x'
 ```
+
+
+> [!WARNING] 
+> Disclaimer; This compiler is in beta and is still in development.
