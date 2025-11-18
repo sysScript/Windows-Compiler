@@ -2,26 +2,8 @@
 
 SystemScript is a statically-typed systems programming language. The compiler performs lexical analysis, parsing, semantic analysis, and code generation to produce native executables. You can find the [documentation here](https://github.com/sysScript/System-Script)
 
-# Installation (with images)
 
-> **BEFORE HAND YOU MUST HAVE RUST'S COMPILER INSTALLED**
-
-## First; Install [NASM](https://www.nasm.us/pub/nasm/releasebuilds/3.01/win64/)
-* Add it to root. (in search look up `system properties`) <img width="1208" height="626" alt="image" src="https://github.com/user-attachments/assets/fc99bc97-563d-4082-a96d-3afa14a38a69" />
-* Then compile System Script's windows compiler. 
-* Next open powershell and `cd` into the directory that you have downloaded the source code too. 
-* Now you will need to execute the build script using `.\build.bat`
-
-The compiler should be in `target/release` named `ssc.exe`
-
-
-## Second; Install VS code
-* Once done look up `X64 Native Tools Command Prompt` in your search bar. and `cd` into the same directory as the source code.
-* You will now be able to use System Script's windows compiler! Have fun! <3
-
-
-
-# Usage
+## Usage
 
 ```bash
 ssc <source_file> [options]
@@ -46,7 +28,7 @@ ssc program.ss -o program.exe -O2
 ssc program.ss -o program.exe --emit-ir
 ```
 
-# Language Features
+## Language Features
 
 ### Variables
 
